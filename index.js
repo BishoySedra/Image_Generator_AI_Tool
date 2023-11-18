@@ -7,6 +7,14 @@ dotenv.config();
 // instance of running server application
 const app = Express();
 
+// middlewares
+app.use(Express.json());
+app.use(Express.urlencoded({ extended: true }));
+
+// static folder
+app.use(Express.static('public'));
+
+
 // routes
 app.use(generateRoutes);
 
