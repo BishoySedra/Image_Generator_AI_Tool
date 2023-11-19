@@ -20,7 +20,7 @@ Before you begin, ensure you have met the following requirements:
 1. Clone the repository:
 
     ```bash
-    git clone (https://github.com/BishoySedra/Image_Generator_AI_Tool.git)
+    git clone https://github.com/BishoySedra/Image_Generator_AI_Tool.git
     ```
 
 2. Navigate to the project directory:
